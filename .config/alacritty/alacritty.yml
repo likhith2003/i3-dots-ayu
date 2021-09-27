@@ -82,4 +82,5 @@ font:
   normal:
     family: 'Roboto Mono'
     style: Regular
-  size: 9
+  size: 12
+  opacity: 0
