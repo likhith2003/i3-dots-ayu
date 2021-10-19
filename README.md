@@ -5,11 +5,7 @@ Firstly,I offer my respectful obeisences to [flying cakes](https://github.com/fl
 
 
 
-## Credits
-
-Gtk theme borrowed from [dnordstrom/ayu-theme:ayu-mirage](https://github.com/dnordstrom/ayu-theme/tree/ayu-mirage). Has only the Mirage version afaik.
-
-I have lost the wallpaper source. Sad. *crying neko sound*
+![image](https://user-images.githubusercontent.com/75579304/137840729-6fd2c37a-9492-45e3-ab32-70f4ec054749.png)
 
 ## License
 
