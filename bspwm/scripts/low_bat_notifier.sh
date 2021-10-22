@@ -2,8 +2,8 @@
 
 ### VARIABLES
 
-POLL_INTERVAL=180     # seconds at which to check battery level
-LOW_BAT=10           # lesser than this is considered low battery
+POLL_INTERVAL=60     # seconds at which to check battery level
+LOW_BAT=13           # lesser than this is considered low battery
 
 # If BAT0 doesn't work for you, check available devices with command below
 #
@@ -15,9 +15,11 @@ if [[ -f $BAT_PATH/charge_full ]]
 then
     BAT_FULL=$BAT_PATH/charge_full
     BAT_NOW=$BAT_PATH/charge_now
-else
+elif [[ -f $BAT_PATH/energy_full ]]
     BAT_FULL=$BAT_PATH/energy_full
     BAT_NOW=$BAT_PATH/energy_now
+else
+    exit
 fi
 
 ### END OF VARIABLES
@@ -49,11 +51,7 @@ then
         if [ $bat_percent -lt $LOW_BAT ]
         then
             notify-send --urgency=critical "$bat_percent% : Low Battery!"
-         if [ $bat_percent -lt $HIGH_BAT ]
-        then
-            notify-send --urgency=critical "$bat_percent% : Device Charged!"
-	fi
+        fi
         sleep $POLL_INTERVAL
     done
 fi
-
