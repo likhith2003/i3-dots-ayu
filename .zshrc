@@ -16,8 +16,17 @@ compinit
 alias c='cd /run/media/$USER/OS'
 alias d='cd /run/media/$USER/DATA'
 alias gol='cd /run/media/$USER/DATA/go'
-alias dot='cd /run/media/$USER/DATA/i3-dots-ayu'
+alias dot='cd /run/media/$USER/DATA/dotfiles'
 alias sem3='cd /run/media/$USER/DATA/IITKGP/sem3'
 alias sem4='cd /run/media/$USER/DATA/IITKGP/sem4'
 alias pds='cd /run/media/$USER/DATA/pds'
 alias rz='source ~/.zshrc'
+#git aliases
+ga="git add ."
+gs="git status"
+gc="git commit -m"
+gr="git remote -v"
+gi="git init"
+gph="git push origin main"
+gpl="git pull origin main"
+
