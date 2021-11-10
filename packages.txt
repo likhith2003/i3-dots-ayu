@@ -1,0 +1,14 @@
+blueman
+bluez
+bluez-utils
+pulseaudio
+pulseaudio-bluetooth
+vivaldi
+ltspice
+gitui
+btop
+musikcube
+ddgr
+pip
+ncdu
+nnn
