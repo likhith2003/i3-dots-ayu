@@ -45,15 +45,11 @@ dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 picom -CGb &
 # Network Applet
 nm-applet --indicator &
+#flameshot
+flameshot &
 
 # Cursor
 xsetroot -cursor_name left_ptr &
 
 # Low battery notifier
 ~/.config/bspwm/scripts/low_bat_notifier.sh
-
-#autostart
-exec gammy
-exec flameshot
-exec vivaldi
-exec thunar
