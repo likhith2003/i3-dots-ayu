@@ -1,3 +1,7 @@
+
+go
+go-tools
+neovim
 blueman
 pipewire-pulse
 pipewire-alsa
@@ -13,7 +17,7 @@ telegram-desktop
 visual-studio-code-bin
 flameshot
 gammy
-nfs-utils
+ntfs-3g
 gitui
 btop
 musikcube
