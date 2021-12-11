@@ -11,6 +11,12 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 #
+
+# Launch tmux
+if command -v tmux>/dev/null; then
+    [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && tmux new-session -A -s main
+fi
+
 #My aliases
 alias c='cd /run/media/$USER/OS'
 alias d='cd /run/media/$USER/DATA'
