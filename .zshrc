@@ -25,6 +25,7 @@ alias dot='cd /run/media/$USER/DATA/dotfiles'
 alias sem3='cd /run/media/$USER/DATA/IITKGP/sem3'
 alias sem4='cd /run/media/$USER/DATA/IITKGP/sem4'
 alias pds='cd /run/media/$USER/DATA/pds'
+alias cl='clear'
 alias today='date + "%A, %B %-d, %Y"'
 alias ls='ls --color=auto'                          
 alias l='ls -lav --ignore=..'   # show long listingof all except ".."                                 
