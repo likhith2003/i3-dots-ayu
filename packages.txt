@@ -1,4 +1,5 @@
-
+alacritty
+htop
 go
 go-tools
 neovim
@@ -17,10 +18,7 @@ telegram-desktop
 visual-studio-code-bin
 flameshot
 gammy
-ntfs-3g
 gitui
-btop
-musikcube
 ddgr
 python-pip
 ncdu
