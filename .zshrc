@@ -27,7 +27,7 @@ alias sem4='cd /run/media/$USER/DATA/IITKGP/sem4'
 alias pds='cd /run/media/$USER/DATA/pds'
 alias today='date + "%A, %B %-d, %Y"'
 alias ls='ls --color=auto'                          
-alias ll='ls -lav --ignore=..'   # show long listingof all except ".."                                 
+alias l='ls -lav --ignore=..'   # show long listingof all except ".."                                 
 alias rz='source ~/.zshrc'
 #git aliases
 ga='git add .'
