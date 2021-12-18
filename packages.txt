@@ -1,3 +1,5 @@
+bashtop
+glances
 alacritty
 htop
 go
